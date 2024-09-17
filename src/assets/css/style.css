@@ -1,0 +1,179 @@
+/* CSS RESET */
+
+*,     /* CSS Selector - Selects all elements */
+*::before,  /* CSS Selector - Insert something after the content of each element */
+*::after {  /* CSS Selector - Insert something before the content of each element */
+  box-sizing: border-box; /* Defines how the width and height of an element are calculated. The width and height properties (and min/max properties) includes content, padding and border. */
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth; /* Specifies whether to smoothly animate the scroll position, instead of a straight jump, when the user clicks on a link within a scrollable box. */
+  font-size: 62.5%; /* Sets the root font size to 10px = 1rem */
+}
+
+/* GLOBAL */
+
+body {
+  font-size: 1.7rem;
+  line-height: 1.5;
+  font-family:  Helvetica, Georgia, sans-serif;
+  background-color: #14191f;
+  color: whitesmoke;
+}
+
+h2, h3, h4, h5 {
+  padding-top: 1rem;
+}
+
+h6 {
+  font-size: 1.5rem;
+}
+
+p {
+  padding-top: 2rem;
+}
+
+img,
+picture {
+  max-width: 100%;
+  display: block;
+  margin: auto;
+}
+
+hr {
+  color:rgb(35, 34, 34);
+}
+
+a {
+  color: #5fb8fc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;   
+  font-weight: bold;
+}
+
+/* MAIN LAYOUT */ 
+
+/* HEADER */
+
+header {
+  display: flex; /* Displays an element as a block-level flex container */
+  align-items: center; /* Aligns the flex items vertically */
+  height: 4.5rem; /* Sets the height of an element. Does not include padding, borders, or margins. */
+  max-width: 150rem; 
+  margin: 2rem auto; /* Creates extra space around an element. Shorthand for margin-top/right/bottom/left. 4 top/right/botom/left, 3 - top/right/botom, 2 - vertical/horizontal 1 - all */
+  /* width: 100%;  Sets the width of an element. Does not include padding, borders, or margins. */
+  padding-right: 1rem;
+  padding-left: 2rem;
+  background-color: #14191f;
+  position: -webkit-sticky; /* For Safari */
+  position: sticky;
+  top: 0;  
+  justify-content: flex-end;
+}
+
+header a {       
+  display: block;     
+  padding-right: 1rem;
+}
+
+.sitename {
+  margin-right: auto;
+  font-size: 2.2rem;
+
+}
+
+/* FOOTER */
+footer {
+    display: flex; /* Displays an element as a block-level flex container */
+    justify-content: center; /* Aligns the flex items horizontally */
+    align-items: center; /* Aligns the flex items vertically */
+    height: 4.5rem; /* Sets the height of an element. Does not include padding, borders, or margins. */
+    width: 100%; /* Sets the width of an element. Does not include padding, borders, or margins. */
+    padding-right: 1rem;
+    padding-left: 1rem;
+    color: grey;
+    max-width: 150rem; 
+    margin: 0 auto;
+  }
+  
+  /* MAIN CONTENT */
+  
+  /* Note on some units
+  vh - Relative to 1% of the height of the viewport = the browser window size.
+  vw - Relative to 1% of the width of the viewport = the browser window size.
+  */
+  
+  main {
+    margin: 0 auto;  /* Creates extra space around an element. Shorthand for margin-top/right/bottom/left. 4 top/right/botom/left, 3 - top/right/botom, 2 - vertical/horizontal 1 - all */
+    min-height: calc(100vh - 13rem); /* Sets the minimum height of an element. If the content is smaller than the minimum height, the minimum height will be applied. */
+    max-width: 110rem; 
+    padding: 0rem 2rem;
+  }
+  
+  main ul {
+    padding-left: 2rem;
+  }
+
+/* PHOTO GALLERY */
+.photoContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    line-height: 0;
+  }
+  
+  .photoContainer img {
+    padding-left: 1rem;
+    padding-top: 1rem;
+  }
+  
+  .photoContainer p {
+    padding: 0;
+  }
+  
+  /* 2-COLUMN LAYOUT USED INSIDE NOTE */
+  .double {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+  
+  .left {
+   flex: 50%;
+   align-self: center;
+   text-align: center;
+   padding: 3rem;
+   
+  }
+  
+  .right {
+   flex: 50%;
+  }
+  
+  .right strong {
+    color: grey;
+  } 
+  
+  .left strong {
+    color: grey;
+  } 
+  
+  /* RESPONSIVE LAYOUT */
+  @media (max-width: 800px) {
+    
+    main {
+      min-width: 100%;
+      padding: 1.5rem 1.5rem;
+    }
+    
+    .double {
+      flex-direction: column;
+    }
+  }    
+  

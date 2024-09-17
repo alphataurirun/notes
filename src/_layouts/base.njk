@@ -8,8 +8,25 @@
     <title>{{ title }}</title> 
   </head>
   <body>
+
+    <header>
+      <div class="sitename"><a href="/">α Tauri</a></div>
+    </header>
+
     <main>
-      {{ content | safe }}    
+      {% block content %}
+      <article>
+       <h1>{{ title }}</h1>
+       <hr>
+        {{ content | safe }} 
+      </article>
+      {% endblock %}       
     </main>
+
+     <footer>
+      {% include "partials/_footer.njk" %}
+    </footer>
+
+
   </body>
 </html>
