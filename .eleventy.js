@@ -1,4 +1,5 @@
 const { DateTime } = require("luxon");
+const markdownIt = require("markdown-it");
 
 module.exports = function(eleventyConfig){
 
@@ -11,6 +12,18 @@ module.exports = function(eleventyConfig){
     // get the current year
     eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
 
+    //plugins
+    // Markdown-it - override the default Markdown library used for `.md` files with markdown-it
+    let markdownLibrary = markdownIt({
+      html: true, // Enable HTML tags in source
+      breaks: true, // Convert '\n' in paragraphs into <br>
+      linkify: true // Autoconvert URL-like text to links
+    // You can add more options here based on your needs
+    });
+
+    // Markdown-it - tell Eleventy to use this instance of markdown-it
+    eleventyConfig.setLibrary("md", markdownLibrary);
+    
     return {
     // markdown files, data files and html files will be processed by Nunjucks
     markdownTemplateEngine: 'njk',
