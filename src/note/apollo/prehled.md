@@ -1,7 +1,27 @@
 ---
 title: Apollo
-layout: base
 ---
+<div class="double">
+<div class="left">
+
+<div class="pswp-gallery" id="my-gallery">
+<a href="/assets/img/apollo/insignias/Apollo_program_insignia.png" 
+    data-pswp-width="761" 
+    data-pswp-height="768" 
+    target="_blank">
+    <img src="/assets/img/apollo/insignias/thumbnails/Apollo_program_insignia.png" alt="" />
+</a>
+
+[Odkazy](/note/apollo/Odkazy)
+</div>
+
+</div>
+<div class="right" style="align-self: center;">
+tbd
+</div>
+</div>
+<br>
+<hr>
 <h2>Apollo 11</h2>
 
 <div class="double">
