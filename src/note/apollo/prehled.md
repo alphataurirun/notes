@@ -17,7 +17,7 @@ eleventyNavigation:
 </a>
 </div>
 
-[Fotky](/note/apollo/pano-fotky) | [Fáze]() | [Hardware]() | [Odkazy](/note/apollo/Odkazy) 
+[Fotky](/note/apollo/pano-fotky) | [Fáze](/note/apollo/faze) | [Hardware](/note/apollo/hardware) | [Odkazy](/note/apollo/Odkazy) 
 
 </div>
 <div class="right" style="align-self: center; text-align: left;">
