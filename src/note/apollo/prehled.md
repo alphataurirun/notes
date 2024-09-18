@@ -11,9 +11,9 @@ title: Apollo
     target="_blank">
     <img src="/assets/img/apollo/insignias/thumbnails/Apollo_program_insignia.png" alt="" />
 </a>
+</div>
 
 [Odkazy](/note/apollo/Odkazy)
-</div>
 
 </div>
 <div class="right" style="align-self: center;">
