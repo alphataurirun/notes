@@ -16,8 +16,12 @@ title: Apollo
 [Odkazy](/note/apollo/Odkazy)
 
 </div>
-<div class="right" style="align-self: center;">
-tbd
+<div class="right" style="align-self: center; text-align: left;">
+HERE MEN FROM THE PLANET EARTH FIRST SET FOOT UPON THE MOON
+<br><br>
+JULY 1969, A.D. 
+<br><br>
+WE CAME IN PEACE FOR ALL MANKIND
 </div>
 </div>
 <br>
