@@ -20,7 +20,7 @@ body {
   line-height: 1.5;
   font-family: Courier, Helvetica, Georgia, sans-serif;
   background-color: #14191f;
-  color: whitesmoke;
+  color: white;
 }
 
 h2, h3, h4, h5 {
@@ -154,9 +154,10 @@ footer {
   .breadcrumb {
     display: flex; /* Displays an element as a block-level flex container */
     align-items: center; /* Aligns the flex items vertically */
-    height: 2rem; /* Sets the height of an element. Does not include padding, borders, or margins. */
-    margin: 0rem auto; /* Creates extra space around an element. Shorthand for margin-top/right/bottom/left. 4 top/right/botom/left, 3 - top/right/botom, 2 - vertical/horizontal 1 - all */
+    min-height: 5rem; /* Sets the height of an element. Does not include padding, borders, or margins. */
+    margin: 1rem auto; /* Creates extra space around an element. Shorthand for margin-top/right/bottom/left. 4 top/right/botom/left, 3 - top/right/botom, 2 - vertical/horizontal 1 - all */
     /* width: 100%;  Sets the width of an element. Does not include padding, borders, or margins. */
+    background-color: #14191f;
     position: -webkit-sticky; /* For Safari */
     position: sticky;
     top: 0;  
