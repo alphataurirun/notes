@@ -15,6 +15,7 @@
   },
   "dependencies": {
     "markdown-it": "^14.1.0",
-    "photoswipe": "^5.4.4"
+    "photoswipe": "^5.4.4",
+    "photoswipe-dynamic-caption-plugin": "^1.2.7"
   }
 }

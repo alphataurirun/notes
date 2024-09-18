@@ -13,7 +13,7 @@ title: Apollo
 </a>
 </div>
 
-[Odkazy](/note/apollo/Odkazy)
+[Fotky](/note/apollo/pano-fotky) | [Fáze]() | [Hardware]() | [Odkazy](/note/apollo/Odkazy) 
 
 </div>
 <div class="right" style="align-self: center; text-align: left;">
@@ -39,6 +39,8 @@ WE CAME IN PEACE FOR ALL MANKIND
     <img src="/assets/img/apollo/insignias/thumbnails/Apollo_11_insignia.png" alt="" />
 </a>
 </div>
+
+[Fotky](/note/apollo/apollo-11-fotky)
 
 </div>
 <div class="right">
@@ -78,6 +80,8 @@ __Délka pobytu na Měsíci__
 </a>
 </div>
 
+[Fotky](/note/apollo/apollo-12-fotky)
+
 </div>
 <div class="right">
 
@@ -115,6 +119,8 @@ __Délka pobytu na Měsíci__
     <img src="/assets/img/apollo/insignias/thumbnails/Apollo_13_insignia.png" alt="" />
 </a>
 </div>
+
+[Fotky](/note/apollo/apollo-13-fotky)
 
 </div>
 <div class="right">
