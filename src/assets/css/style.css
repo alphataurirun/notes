@@ -150,3 +150,26 @@ footer {
     }
   }    
   
+  /* BREADCRUMBS */
+  .breadcrumb {
+    display: flex; /* Displays an element as a block-level flex container */
+    align-items: center; /* Aligns the flex items vertically */
+    height: 2rem; /* Sets the height of an element. Does not include padding, borders, or margins. */
+    margin: 0rem auto; /* Creates extra space around an element. Shorthand for margin-top/right/bottom/left. 4 top/right/botom/left, 3 - top/right/botom, 2 - vertical/horizontal 1 - all */
+    /* width: 100%;  Sets the width of an element. Does not include padding, borders, or margins. */
+    position: -webkit-sticky; /* For Safari */
+    position: sticky;
+    top: 0;  
+    justify-content: flex-start;
+  }
+
+  nav[aria-label=breadcrumb] ol {
+    margin: 0;
+    padding: 0;
+  }
+  nav[aria-label=breadcrumb] li {
+    display: inline;
+  }
+  nav[aria-label=breadcrumb] li:not(:last-child)::after {
+    content: " ˃"
+  }

@@ -1,5 +1,8 @@
 ---
 title: Apollo Panoramata
+eleventyNavigation:
+  key: Panoramatické fotky
+  parent: Apollo
 ---
 <div class="pswp-gallery" id="my-gallery">
 

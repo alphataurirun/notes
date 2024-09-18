@@ -1,5 +1,9 @@
 ---
 title: Apollo
+eleventyNavigation:
+  key: Apollo
+  parent: Obsah
+  order: 1
 ---
 <div class="double">
 <div class="left">

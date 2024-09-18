@@ -1,5 +1,8 @@
 ---
 title: Apollo 12 Fotky
+eleventyNavigation:
+  key: Apollo 12 Fotky
+  parent: Apollo
 ---
 <div class="pswp-gallery" id="my-gallery">
   <div class="photoContainer">

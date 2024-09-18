@@ -1,5 +1,8 @@
 ---
 title: Odkazy
+eleventyNavigation:
+  key: Odkazy
+  parent: Apollo
 ---
 ### NASA History Office
 - [Apollo Lunar Surface Journal](https://www.nasa.gov/history/alsj/main.html)

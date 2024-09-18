@@ -1,5 +1,6 @@
 const { DateTime } = require("luxon");
 const markdownIt = require("markdown-it");
+const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 
 module.exports = function(eleventyConfig){
 
@@ -13,6 +14,9 @@ module.exports = function(eleventyConfig){
     eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
 
     //plugins
+    // Eleventy Navigation
+    eleventyConfig.addPlugin(eleventyNavigationPlugin);
+
     // Markdown-it - override the default Markdown library used for `.md` files with markdown-it
     let markdownLibrary = markdownIt({
       html: true, // Enable HTML tags in source
